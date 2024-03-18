@@ -156,3 +156,6 @@ footer p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+footer p#copy {
+  padding-bottom: 10px;
+}
