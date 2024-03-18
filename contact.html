@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="La description du site...." />
+    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <header role="banner">
+      <figure>
+        <a href="index.html"
+          ><img src="/images/header-deconinck.png" alt="banniere du site"
+        /></a>
+      </figure>
+
+      <!-- Nav-->
+      <nav role="navigation">
+        <ul>
+          <li><a href="nouveautes.html">Nouveautés</a></li>
+          <li><a href="classiques.html">Nos classiques</a></li>
+          <li><a href="contact.html">Contact & plan d'accès</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN-->
+    <main role="main">
+      <h1>Contact & Plan d'accès</h1>
+      <br />
+
+      <form action="" method="post">
+        <fieldset>
+          <legend>Vos coordonées</legend>
+
+          <!-- Coordonées formulaire-->
+          <br />
+          <div class="form">
+            <label for="nom">Nom :</label>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              tabindex="1"
+              placeholder=" Votre nom"
+              required
+              autofocus
+            />
+          </div>
+
+          <div class="form">
+            <label for="prenom">Prénom :</label>
+            <input
+              type="url"
+              name="prenom"
+              id="prenom"
+              placeholder="Votre prénom"
+              tabindex="2"
+            />
+          </div>
+
+          <div class="form">
+            <label for="telephone">Téléphone :</label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              tabindex="3"
+              placeholder="+32"
+            />
+          </div>
+
+          <div class="form">
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              tabindex="4"
+              placeholder=" Votre email"
+              required
+            />
+          </div>
+        </fieldset>
+      </form>
+      <!-- Votre question formulaire-->
+      <br />
+
+      <form id="form-2" action="" method="">
+        <fieldset>
+          <legend>Votre question</legend>
+
+          <label for="question"></label>
+          <textarea
+            name="question"
+            id="question"
+            placeholder="Ecrivez votre quesiton ici ..."
+          ></textarea>
+        </fieldset>
+      </form>
+
+      <br />
+      <!--Button envoi FORM-->
+      <p><input type="submit" value="Envoyer" id="envoi" tabindex="5" /></p>
+      <h3>
+        Deconick Wine and Spirit - Rue Lahaut B-1380 Genappe - Tel. 02/658.26.15
+      </h3>
+      <div id="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.336290880551!2d4.429144177528338!3d50.65801637239583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3d3ca863de353%3A0x85ae77df0931c266!2sRue%20L%C3%A0-Haut%2C%201380%20Lasne!5e0!3m2!1sfr!2sbe!4v1710794211457!5m2!1sfr!2sbe"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <!-- FOOTER-->
+    <footer>
+      <h4>
+        Deconick Wine and Spirit - Rue Lahaut B-1380 Genappe - Tel. 02/658.26.15
+      </h4>
+
+      <p>&copy; Mentions légales</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+body {
+  background-image: url("/images/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/*! HEADER */
+header {
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  max-width: 700px;
+}
+nav {
+  opacity: 80%;
+  height: 2.2em;
+  background-color: rgb(86, 86, 86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.6em;
+}
+/*! MAIN*/
+main {
+  padding: 10px 35px 10px 35px;
+  background-color: white;
+  opacity: 90%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+main p {
+  margin-top: 5px;
+}
+main p.lettre::first-letter {
+  font-size: 1.6em;
+  color: #8e2624;
+}
+#telechargement {
+  color: #8e2624;
+}
+main h2::first-letter {
+  font-size: 1.6em;
+}
+
+/*! FORMULAIRE */
+fieldset {
+  border: solid 1px #8e2624;
+  border-radius: 15px;
+}
+legend {
+  color: #8e2624;
+  font-size: 1.5em;
+}
+input {
+  border: solid 1px black;
+  width: 400px;
+}
+label {
+  display: block;
+  width: 150px;
+  float: left;
+}
+input:hover,
+input:focus {
+  outline: none;
+  border: solid 1px black;
+  box-shadow: 1px 1px 5px black;
+}
+textarea {
+  border: solid 1px black;
+  resize: none;
+  height: 70px;
+  width: 100%;
+
+  overflow: scroll;
+}
+h3 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 1.4em;
+  text-align: center;
+}
+form div.form {
+  margin-top: 1.2em;
+}
+form#form-2 {
+  overflow: scroll;
+}
+input#envoi {
+  width: 120px;
+  background-color: #7c7c7c;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+div#maps iframe {
+  width: 100%;
+}
+
+/*! SECTION */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+section figure.colonne {
+  width: 280px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+section figure.colonne:hover,
+section figure.colonne:focus {
+  box-shadow: 1px 1px 5px black;
+}
+h3#classique {
+  padding-top: 20px;
+  border-top: solid 1px black;
+}
+/*! FOOTER */
+footer {
+  text-align: center;
+  margin: 0 auto;
+  min-width: max-content;
+  max-width: 850px;
+}
+footer p {
+  color: #8e2624;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
